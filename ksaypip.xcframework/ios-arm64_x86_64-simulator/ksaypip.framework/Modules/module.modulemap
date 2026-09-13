@@ -1,0 +1,5 @@
+framework module "ksaypip" {
+    umbrella header "ksaypip.h"
+    export *
+    module * { export * }
+}
